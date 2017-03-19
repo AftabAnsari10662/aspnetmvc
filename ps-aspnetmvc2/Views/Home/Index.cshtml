@@ -1,0 +1,9 @@
+﻿@using System.Configuration
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    @ConfigurationManager.AppSettings["Greeting"]
+</div>
+This is new version of software
